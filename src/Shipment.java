@@ -78,18 +78,18 @@ public class Shipment {
 					"        },\r\n" + 
 					"        {\r\n" + 
 					"        \"EventTypeId\": \"Ship\",\r\n" + 
-					"        \"ReleaseId\": \"000104560\",\r\n" + 
+					"        \"ReleaseId\": \""+arg[4]+"\",\r\n" + 
 					"        \"ReleaseLineId\": \"3\",\r\n" + 
-					"        \"ItemId\": \"0330815500000080\", \r\n" + 
+					"        \"ItemId\": \""+arg[2]+"\", \r\n" + 
 					"        \"Quantity\": \"1\",\r\n" + 
 					"        \"UOM\": \"EA\",\r\n" + 
 					"        \"FulfillmentInfo\": {\r\n" + 
-					"               \"PackageId\": \"00001000000002\",  \r\n" + 
+					"               \"PackageId\": \""+arg[6]+"\",  \r\n" + 
 					"               \"PackageDetailId\": \"1\",  \r\n" + 
-					"               \"TrackingNumber\": \"0001000000000000002\",  \r\n" + 
+					"               \"TrackingNumber\": \""+arg[7]+"\",  \r\n" + 
 					"               \"ShipViaId\": \"FDGR\",\r\n" + 
-					"               \"EventDate\": \"2019-08-27T10:10:06\", \r\n" + 
-					"               \"ShipmentId\": \"0000001000000000002\",  \r\n" + 
+					"               \"EventDate\": \""+date+"\", \r\n" + 
+					"               \"ShipmentId\": \""+arg[8]+"\",  \r\n" + 
 					"               \"InventoryTypeId\": \"F\"\r\n" + 
 					"        }\r\n" + 
 					"    }]\r\n" + 
